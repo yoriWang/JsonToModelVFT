@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC870861EE9401700D2E16D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870851EE9401700D2E16D /* AppDelegate.m */; };
+		4EC870891EE9401700D2E16D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870881EE9401700D2E16D /* main.m */; };
+		4EC8708C1EE9401700D2E16D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8708B1EE9401700D2E16D /* ViewController.m */; };
+		4EC8708E1EE9401700D2E16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8708D1EE9401700D2E16D /* Assets.xcassets */; };
+		4EC870911EE9401700D2E16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8708F1EE9401700D2E16D /* Main.storyboard */; };
+		4EC8709C1EE9401700D2E16D /* YRJsonToModelVFTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8709B1EE9401700D2E16D /* YRJsonToModelVFTTests.m */; };
+		4EC870A71EE9401700D2E16D /* YRJsonToModelVFTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870A61EE9401700D2E16D /* YRJsonToModelVFTUITests.m */; };
+		4EC870BD1EE9519400D2E16D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870BB1EE9519400D2E16D /* TestViewController.m */; };
+		4EC870BE1EE9519400D2E16D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC870BC1EE9519400D2E16D /* TestViewController.xib */; };
+		4EC870C21EE952B000D2E16D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870C01EE952B000D2E16D /* MainWindowController.m */; };
+		4EC870C31EE952B000D2E16D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC870C11EE952B000D2E16D /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC870981EE9401700D2E16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC870791EE9401700D2E16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC870801EE9401700D2E16D;
+			remoteInfo = YRJsonToModelVFT;
+		};
+		4EC870A31EE9401700D2E16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC870791EE9401700D2E16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC870801EE9401700D2E16D;
+			remoteInfo = YRJsonToModelVFT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC870811EE9401700D2E16D /* YRJsonToModelVFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRJsonToModelVFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC870841EE9401700D2E16D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EC870851EE9401700D2E16D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EC870881EE9401700D2E16D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EC8708A1EE9401700D2E16D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EC8708B1EE9401700D2E16D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EC8708D1EE9401700D2E16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC870901EE9401700D2E16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC870921EE9401700D2E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC870971EE9401700D2E16D /* YRJsonToModelVFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRJsonToModelVFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC8709B1EE9401700D2E16D /* YRJsonToModelVFTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRJsonToModelVFTTests.m; sourceTree = "<group>"; };
+		4EC8709D1EE9401700D2E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC870A21EE9401700D2E16D /* YRJsonToModelVFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRJsonToModelVFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC870A61EE9401700D2E16D /* YRJsonToModelVFTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRJsonToModelVFTUITests.m; sourceTree = "<group>"; };
+		4EC870A81EE9401700D2E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC870BA1EE9519400D2E16D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4EC870BB1EE9519400D2E16D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		4EC870BC1EE9519400D2E16D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		4EC870BF1EE952B000D2E16D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		4EC870C01EE952B000D2E16D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		4EC870C11EE952B000D2E16D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC8707E1EE9401700D2E16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC870941EE9401700D2E16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC8709F1EE9401700D2E16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC870781EE9401700D2E16D = {
+			isa = PBXGroup;
+			children = (
+				4EC870831EE9401700D2E16D /* YRJsonToModelVFT */,
+				4EC8709A1EE9401700D2E16D /* YRJsonToModelVFTTests */,
+				4EC870A51EE9401700D2E16D /* YRJsonToModelVFTUITests */,
+				4EC870821EE9401700D2E16D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC870821EE9401700D2E16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC870811EE9401700D2E16D /* YRJsonToModelVFT.app */,
+				4EC870971EE9401700D2E16D /* YRJsonToModelVFTTests.xctest */,
+				4EC870A21EE9401700D2E16D /* YRJsonToModelVFTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC870831EE9401700D2E16D /* YRJsonToModelVFT */ = {
+			isa = PBXGroup;
+			children = (
+				4EC870841EE9401700D2E16D /* AppDelegate.h */,
+				4EC870851EE9401700D2E16D /* AppDelegate.m */,
+				4EC8708A1EE9401700D2E16D /* ViewController.h */,
+				4EC8708B1EE9401700D2E16D /* ViewController.m */,
+				4EC8708D1EE9401700D2E16D /* Assets.xcassets */,
+				4EC8708F1EE9401700D2E16D /* Main.storyboard */,
+				4EC870921EE9401700D2E16D /* Info.plist */,
+				4EC870871EE9401700D2E16D /* Supporting Files */,
+				4EC870BA1EE9519400D2E16D /* TestViewController.h */,
+				4EC870BB1EE9519400D2E16D /* TestViewController.m */,
+				4EC870BC1EE9519400D2E16D /* TestViewController.xib */,
+				4EC870BF1EE952B000D2E16D /* MainWindowController.h */,
+				4EC870C01EE952B000D2E16D /* MainWindowController.m */,
+				4EC870C11EE952B000D2E16D /* MainWindowController.xib */,
+			);
+			path = YRJsonToModelVFT;
+			sourceTree = "<group>";
+		};
+		4EC870871EE9401700D2E16D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC870881EE9401700D2E16D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC8709A1EE9401700D2E16D /* YRJsonToModelVFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC8709B1EE9401700D2E16D /* YRJsonToModelVFTTests.m */,
+				4EC8709D1EE9401700D2E16D /* Info.plist */,
+			);
+			path = YRJsonToModelVFTTests;
+			sourceTree = "<group>";
+		};
+		4EC870A51EE9401700D2E16D /* YRJsonToModelVFTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC870A61EE9401700D2E16D /* YRJsonToModelVFTUITests.m */,
+				4EC870A81EE9401700D2E16D /* Info.plist */,
+			);
+			path = YRJsonToModelVFTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC870801EE9401700D2E16D /* YRJsonToModelVFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC870AB1EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFT" */;
+			buildPhases = (
+				4EC8707D1EE9401700D2E16D /* Sources */,
+				4EC8707E1EE9401700D2E16D /* Frameworks */,
+				4EC8707F1EE9401700D2E16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRJsonToModelVFT;
+			productName = YRJsonToModelVFT;
+			productReference = 4EC870811EE9401700D2E16D /* YRJsonToModelVFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC870961EE9401700D2E16D /* YRJsonToModelVFTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC870AE1EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTTests" */;
+			buildPhases = (
+				4EC870931EE9401700D2E16D /* Sources */,
+				4EC870941EE9401700D2E16D /* Frameworks */,
+				4EC870951EE9401700D2E16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC870991EE9401700D2E16D /* PBXTargetDependency */,
+			);
+			name = YRJsonToModelVFTTests;
+			productName = YRJsonToModelVFTTests;
+			productReference = 4EC870971EE9401700D2E16D /* YRJsonToModelVFTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EC870A11EE9401700D2E16D /* YRJsonToModelVFTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC870B11EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTUITests" */;
+			buildPhases = (
+				4EC8709E1EE9401700D2E16D /* Sources */,
+				4EC8709F1EE9401700D2E16D /* Frameworks */,
+				4EC870A01EE9401700D2E16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC870A41EE9401700D2E16D /* PBXTargetDependency */,
+			);
+			name = YRJsonToModelVFTUITests;
+			productName = YRJsonToModelVFTUITests;
+			productReference = 4EC870A21EE9401700D2E16D /* YRJsonToModelVFTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC870791EE9401700D2E16D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					4EC870801EE9401700D2E16D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4EC870961EE9401700D2E16D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EC870801EE9401700D2E16D;
+					};
+					4EC870A11EE9401700D2E16D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EC870801EE9401700D2E16D;
+					};
+				};
+			};
+			buildConfigurationList = 4EC8707C1EE9401700D2E16D /* Build configuration list for PBXProject "YRJsonToModelVFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC870781EE9401700D2E16D;
+			productRefGroup = 4EC870821EE9401700D2E16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC870801EE9401700D2E16D /* YRJsonToModelVFT */,
+				4EC870961EE9401700D2E16D /* YRJsonToModelVFTTests */,
+				4EC870A11EE9401700D2E16D /* YRJsonToModelVFTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC8707F1EE9401700D2E16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC8708E1EE9401700D2E16D /* Assets.xcassets in Resources */,
+				4EC870BE1EE9519400D2E16D /* TestViewController.xib in Resources */,
+				4EC870C31EE952B000D2E16D /* MainWindowController.xib in Resources */,
+				4EC870911EE9401700D2E16D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC870951EE9401700D2E16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC870A01EE9401700D2E16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC8707D1EE9401700D2E16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC870C21EE952B000D2E16D /* MainWindowController.m in Sources */,
+				4EC8708C1EE9401700D2E16D /* ViewController.m in Sources */,
+				4EC870891EE9401700D2E16D /* main.m in Sources */,
+				4EC870BD1EE9519400D2E16D /* TestViewController.m in Sources */,
+				4EC870861EE9401700D2E16D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC870931EE9401700D2E16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC8709C1EE9401700D2E16D /* YRJsonToModelVFTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC8709E1EE9401700D2E16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC870A71EE9401700D2E16D /* YRJsonToModelVFTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC870991EE9401700D2E16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC870801EE9401700D2E16D /* YRJsonToModelVFT */;
+			targetProxy = 4EC870981EE9401700D2E16D /* PBXContainerItemProxy */;
+		};
+		4EC870A41EE9401700D2E16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC870801EE9401700D2E16D /* YRJsonToModelVFT */;
+			targetProxy = 4EC870A31EE9401700D2E16D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC8708F1EE9401700D2E16D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC870901EE9401700D2E16D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC870A91EE9401700D2E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EC870AA1EE9401700D2E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EC870AC1EE9401700D2E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EC870AD1EE9401700D2E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EC870AF1EE9401700D2E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRJsonToModelVFT.app/Contents/MacOS/YRJsonToModelVFT";
+			};
+			name = Debug;
+		};
+		4EC870B01EE9401700D2E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRJsonToModelVFT.app/Contents/MacOS/YRJsonToModelVFT";
+			};
+			name = Release;
+		};
+		4EC870B21EE9401700D2E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YRJsonToModelVFT;
+			};
+			name = Debug;
+		};
+		4EC870B31EE9401700D2E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YRJsonToModelVFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yori.YRJsonToModelVFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YRJsonToModelVFT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC8707C1EE9401700D2E16D /* Build configuration list for PBXProject "YRJsonToModelVFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC870A91EE9401700D2E16D /* Debug */,
+				4EC870AA1EE9401700D2E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC870AB1EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC870AC1EE9401700D2E16D /* Debug */,
+				4EC870AD1EE9401700D2E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EC870AE1EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC870AF1EE9401700D2E16D /* Debug */,
+				4EC870B01EE9401700D2E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EC870B11EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC870B21EE9401700D2E16D /* Debug */,
+				4EC870B31EE9401700D2E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC870791EE9401700D2E16D /* Project object */;
+}
