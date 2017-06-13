@@ -1,0 +1,33 @@
+头文件格式
+
+//
+//  TestModel.h
+//  puluNews
+//
+//  Created by 王煜仁 on 2017/6/13.
+//  Copyright © 2017年 pulu. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface TestModel : NSObject
+
+@end
+
+
+源文件格式
+//
+//  TestModel.m
+//  puluNews
+//
+//  Created by 王煜仁 on 2017/6/13.
+//  Copyright © 2017年 pulu. All rights reserved.
+//
+
+#import "TestModel.h"
+
+@implementation TestModel
+
+@end
+
+

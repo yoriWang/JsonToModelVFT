@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "MainWindowController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
+@property (weak) IBOutlet NSWindow *window;
+@property (nonatomic, strong) MainViewController *mainVC;
 
 @end
 
@@ -17,9 +19,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    MainWindowController *mainWC = [[MainWindowController alloc] initWithWindowNibName:@"MainWindowController"];
-    [mainWC.window  center];
-    [mainWC.window orderFront:nil];
+//    self.mainVC = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.mainVC = [[MainViewController alloc] init];
+    [self.window.contentView addSubview:self.mainVC.view];
+    self.mainVC.view.frame = self.window.contentView.bounds;
 }
 
 

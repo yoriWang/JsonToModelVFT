@@ -9,15 +9,13 @@
 /* Begin PBXBuildFile section */
 		4EC870861EE9401700D2E16D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870851EE9401700D2E16D /* AppDelegate.m */; };
 		4EC870891EE9401700D2E16D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870881EE9401700D2E16D /* main.m */; };
-		4EC8708C1EE9401700D2E16D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8708B1EE9401700D2E16D /* ViewController.m */; };
 		4EC8708E1EE9401700D2E16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8708D1EE9401700D2E16D /* Assets.xcassets */; };
-		4EC870911EE9401700D2E16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8708F1EE9401700D2E16D /* Main.storyboard */; };
 		4EC8709C1EE9401700D2E16D /* YRJsonToModelVFTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8709B1EE9401700D2E16D /* YRJsonToModelVFTTests.m */; };
 		4EC870A71EE9401700D2E16D /* YRJsonToModelVFTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870A61EE9401700D2E16D /* YRJsonToModelVFTUITests.m */; };
-		4EC870BD1EE9519400D2E16D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870BB1EE9519400D2E16D /* TestViewController.m */; };
-		4EC870BE1EE9519400D2E16D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC870BC1EE9519400D2E16D /* TestViewController.xib */; };
-		4EC870C21EE952B000D2E16D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC870C01EE952B000D2E16D /* MainWindowController.m */; };
-		4EC870C31EE952B000D2E16D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC870C11EE952B000D2E16D /* MainWindowController.xib */; };
+		4EE22CC81EEFBEC700E1FF8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE22CC71EEFBEC700E1FF8C /* MainMenu.xib */; };
+		4EE22CCC1EEFC27300E1FF8C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE22CCA1EEFC27300E1FF8C /* MainViewController.m */; };
+		4EE22CCD1EEFC27300E1FF8C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE22CCB1EEFC27300E1FF8C /* MainViewController.xib */; };
+		4EE22CD51EEFF40200E1FF8C /* temp in Resources */ = {isa = PBXBuildFile; fileRef = 4EE22CD41EEFF40200E1FF8C /* temp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +40,7 @@
 		4EC870841EE9401700D2E16D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EC870851EE9401700D2E16D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EC870881EE9401700D2E16D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EC8708A1EE9401700D2E16D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4EC8708B1EE9401700D2E16D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EC8708D1EE9401700D2E16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EC870901EE9401700D2E16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EC870921EE9401700D2E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC870971EE9401700D2E16D /* YRJsonToModelVFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRJsonToModelVFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC8709B1EE9401700D2E16D /* YRJsonToModelVFTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRJsonToModelVFTTests.m; sourceTree = "<group>"; };
@@ -53,12 +48,11 @@
 		4EC870A21EE9401700D2E16D /* YRJsonToModelVFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRJsonToModelVFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC870A61EE9401700D2E16D /* YRJsonToModelVFTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRJsonToModelVFTUITests.m; sourceTree = "<group>"; };
 		4EC870A81EE9401700D2E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EC870BA1EE9519400D2E16D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		4EC870BB1EE9519400D2E16D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		4EC870BC1EE9519400D2E16D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
-		4EC870BF1EE952B000D2E16D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
-		4EC870C01EE952B000D2E16D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
-		4EC870C11EE952B000D2E16D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		4EE22CC71EEFBEC700E1FF8C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		4EE22CC91EEFC27300E1FF8C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4EE22CCA1EEFC27300E1FF8C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4EE22CCB1EEFC27300E1FF8C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4EE22CD41EEFF40200E1FF8C /* temp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,18 +105,14 @@
 			children = (
 				4EC870841EE9401700D2E16D /* AppDelegate.h */,
 				4EC870851EE9401700D2E16D /* AppDelegate.m */,
-				4EC8708A1EE9401700D2E16D /* ViewController.h */,
-				4EC8708B1EE9401700D2E16D /* ViewController.m */,
 				4EC8708D1EE9401700D2E16D /* Assets.xcassets */,
-				4EC8708F1EE9401700D2E16D /* Main.storyboard */,
 				4EC870921EE9401700D2E16D /* Info.plist */,
 				4EC870871EE9401700D2E16D /* Supporting Files */,
-				4EC870BA1EE9519400D2E16D /* TestViewController.h */,
-				4EC870BB1EE9519400D2E16D /* TestViewController.m */,
-				4EC870BC1EE9519400D2E16D /* TestViewController.xib */,
-				4EC870BF1EE952B000D2E16D /* MainWindowController.h */,
-				4EC870C01EE952B000D2E16D /* MainWindowController.m */,
-				4EC870C11EE952B000D2E16D /* MainWindowController.xib */,
+				4EE22CC71EEFBEC700E1FF8C /* MainMenu.xib */,
+				4EE22CC91EEFC27300E1FF8C /* MainViewController.h */,
+				4EE22CCA1EEFC27300E1FF8C /* MainViewController.m */,
+				4EE22CCB1EEFC27300E1FF8C /* MainViewController.xib */,
+				4EE22CD41EEFF40200E1FF8C /* temp */,
 			);
 			path = YRJsonToModelVFT;
 			sourceTree = "<group>";
@@ -260,9 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC8708E1EE9401700D2E16D /* Assets.xcassets in Resources */,
-				4EC870BE1EE9519400D2E16D /* TestViewController.xib in Resources */,
-				4EC870C31EE952B000D2E16D /* MainWindowController.xib in Resources */,
-				4EC870911EE9401700D2E16D /* Main.storyboard in Resources */,
+				4EE22CC81EEFBEC700E1FF8C /* MainMenu.xib in Resources */,
+				4EE22CD51EEFF40200E1FF8C /* temp in Resources */,
+				4EE22CCD1EEFC27300E1FF8C /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC870C21EE952B000D2E16D /* MainWindowController.m in Sources */,
-				4EC8708C1EE9401700D2E16D /* ViewController.m in Sources */,
 				4EC870891EE9401700D2E16D /* main.m in Sources */,
-				4EC870BD1EE9519400D2E16D /* TestViewController.m in Sources */,
+				4EE22CCC1EEFC27300E1FF8C /* MainViewController.m in Sources */,
 				4EC870861EE9401700D2E16D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,17 +313,6 @@
 			targetProxy = 4EC870A31EE9401700D2E16D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4EC8708F1EE9401700D2E16D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EC870901EE9401700D2E16D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4EC870A91EE9401700D2E16D /* Debug */ = {
@@ -520,6 +497,7 @@
 				4EC870AD1EE9401700D2E16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC870AE1EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +506,7 @@
 				4EC870B01EE9401700D2E16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC870B11EE9401700D2E16D /* Build configuration list for PBXNativeTarget "YRJsonToModelVFTUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +515,7 @@
 				4EC870B31EE9401700D2E16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
